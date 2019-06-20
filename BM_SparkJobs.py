@@ -37,11 +37,6 @@ for a in result:
         dictRestate.update({a[1:31]:a[44:77]})
 
 
-print(dictLoader)
-print(dictShaper)
-print(dictRestate)
-
-
 
 from pandas import ExcelWriter
 
